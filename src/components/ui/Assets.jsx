@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 export default function Assets() {
  const navigate =  useNavigate()
 	return (
-		<div className="w-[90rem] min-h-[90rem] mx-auto bg-black rounded-3xl">
+		<div className="w-[90rem] min-h-[90rem] mx-auto bg-black rounded-3xl mt-[5rem]">
 			<div className="border w-[90rem] min-h-[50rem]  ">
 				<div className="w-[90rem] text-center">
 					<h1 className=" text-[3.5rem] font-semibold text-white">
