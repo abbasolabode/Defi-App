@@ -87,7 +87,7 @@ export default function Assets() {
 							<span className="text-[1.6rem] text-gray-400 mr-10">$2.7m</span>
 						</div>
 
-						<div className="text-center min-h-[18rem] shadow-2xl bg-stone-700 rounded-3xl flex flex-col justify-center mr-[rem]">
+						<div className="text-center min-h-[18rem] shadow-2xl bg-stone-700 rounded-3xl flex flex-col justify-center mr-[-0.4rem]">
 							<span className="text-[1.5rem]">
 								<span className="text-green-200 border-4"></span> Financial
 							</span>

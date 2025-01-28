@@ -141,32 +141,32 @@ export default function MainPage() {
 						<div className="text-white w-[80rem]">
 							<span className="flex items-center gap-7 justify-center  ">
 								<img
-									src="public\Mask Group (1).png"
+									src="\Mask Group (1).png"
 									className="w-[8rem]"
 									alt=""
 								/>
 								<img
-									src="public\Mask Group (2).png"
+									src="\Mask Group (2).png"
 									className="w-[8rem]"
 									alt=""
 								/>
 								<img
-									src="public\Mask Group (2).png"
+									src="\Mask Group (2).png"
 									className="w-[8rem] "
 									alt=""
 								/>
 								<img
-									src="public\Mask Group (4).png"
+									src="\Mask Group (4).png"
 									className="w-[6rem] ml-4"
 									alt=""
 								/>
 								<img
-									src="public\Mask Group (3).png"
+									src="\Mask Group (3).png"
 									className="w-[8rem] mr-3"
 									alt=""
 								/>
 								<img
-									src="public\Mask Group (4).png"
+									src="\Mask Group (4).png"
 									className="w-[6rem] mr-7"
 									alt=""
 								/>
