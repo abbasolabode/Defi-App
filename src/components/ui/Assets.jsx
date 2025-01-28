@@ -63,7 +63,7 @@ export default function Assets() {
 					</div>
 					<div className="w-1/3 rounded-[2.5rem] flex flex-col  bg-[#2D2D2D] text-white">
 						<div>
-							<img src="/public/images/graph.png" alt="statistics" />
+							<img src="/images/graph.png" alt="statistics" />
 						</div>
 						<h2 className="text-[2rem] text-center mt-4">
 							Liquidity Labyrinth
@@ -117,7 +117,7 @@ export default function Assets() {
 					<div className="flex justify-center items-center">
 						<img
 							className="w-[20rem] "
-							src="/public/images/statistics.png"
+							src="/images/statistics.png"
 							alt=""
 						/>
 					</div>

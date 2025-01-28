@@ -21,7 +21,7 @@ export default function Navbar() {
 						<NavLink to="/defi">DeFi App</NavLink>
 					</li>
 					<li className="text-[1.3rem] font-semibold">
-						<NavLink to="/assets">Assets</NavLink>
+						<NavLink to="/asset">Assets</NavLink>
 					</li>
 					<li className="text-[1.3rem] font-semibold">
 						<NavLink to="/features">Features</NavLink>

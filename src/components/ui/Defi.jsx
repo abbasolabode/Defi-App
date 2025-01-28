@@ -5,7 +5,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import { BsDiamond } from "react-icons/bs";
 
 export default function Defi() {
-     const navigate = useNavigate();
+    const navigate = useNavigate()
 	const bgImage = {
 		backgroundImage: "url('/images/bgImage.jpg')",
 		backgroundSize: "cover",
@@ -138,12 +138,8 @@ export default function Defi() {
 						</div>
 					</div>
 				</div>
-				<button
-					onClick={() => navigate("/home")}
-					className="text-white font-bold ml-[3rem]"
-				>
-				 back home
-				</button>
+					
+                <button onClick={()=> navigate("/home")} className="text-white  cursor-pointer font-bold ml-[3rem]">back home</button>
 			</div>
 		</div>
 	);
