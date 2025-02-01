@@ -43,7 +43,7 @@ export default function Assets() {
   };  
 
   return (
-		<div className="w-[20rem] mx-auto 2xl:bg-black 2xl:w-[96rem] border 2xl:min-h-[72rem] 2xl:pt-[1rem] bg-gradient-to-br from-black via-gray-900 to-gray-800 bg-gradient-to-tr from-20% via-gray-700 to-80% bg-gradient-to-bl from-30% via-gray-800 to-70%">
+		<div className="w-[20rem] mx-auto 2xl:bg-black 2xl:w-[96rem] 2xl:min-h-[72rem] 2xl:pt-[1rem] bg-gradient-to-br from-black via-gray-900 to-gray-800 bg-gradient-to-tr from-20% via-gray-700 to-80% bg-gradient-to-bl from-30% via-gray-800 to-70%">
 			<div className="w-[16rem] ml-[2rem] 2xl:w-[90rem] 2xl:my-[3rem] 2xl:min-h-[65rem] 2xl:mt-[2rem] 2xl:rounded-3xl 2xl:bg-gradient-to-br from-black via-gray-900 to-gray-800 bg-gradient-to-tr from-20% via-gray-700 to-80% bg-gradient-to-bl from-30% via-gray-800 to-70%">
 				<div className="2xl:w-[80rem]">
 					<h1 className="text-[1.4rem] text-center text-white font-semibold whitespace-nowrap mr-5 2xl:text-[3rem]">

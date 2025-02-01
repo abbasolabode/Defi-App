@@ -14,9 +14,7 @@ import { GoDash } from "react-icons/go";
 export default function MainPage() {
 	return (
 		<>
-			
-			<div className="2xl:w-[90rem] 2xl:mx-[5rem]">
-			
+			<div className="2xl:w-[90rem] 2xl:ml-[4rem] 2xl:mx-[5rem]">
 				<div className="min-h-[14rem] flex flex-col justify-center items-center 2xl:w-[90rem] 2xl:flex 2xl:flex-row 2xl:justify-between 2xl:mt-[5rem]">
 					<div className="min-h-[8rem] 2xl:ml-[6.8rem] 2xl:mt-[4rem]">
 						<div className="w-[5rem] min-h-[4rem]">
@@ -43,8 +41,8 @@ export default function MainPage() {
 						</div>
 						<div className="2xl:w-[19rem] 2xl:py-1 2xl:rounded-full 2xl:bg-neutral-800 2xl:mr-[10rem] 2xl:mt-[5rem]">
 							<Link className="2xl:flex 2xl:justify-center gap-2 2xl:items-center 2xl:text-white">
-								<GiMoon className="2xl:text-[1rem] 2xl:font-medium" /> Unlock Your
-								Assets Spark! <MdOutlineArrowForward />
+								<GiMoon className="2xl:text-[1rem] 2xl:font-medium" /> Unlock
+								Your Assets Spark! <MdOutlineArrowForward />
 							</Link>
 						</div>
 					</div>
@@ -153,7 +151,7 @@ export default function MainPage() {
 						</div>
 					</div>
 
-					<div className="flex justify-center gap-4 mt-[5rem]">
+					<div className="flex justify-center gap-4 mt-[5rem] hidden">
 						<img
 							src="/images/box-light.svg"
 							alt="Mask Group 1"
