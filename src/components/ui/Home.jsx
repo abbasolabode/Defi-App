@@ -1,14 +1,23 @@
-import Header from "./Header";
+import Navbar from "./Navbar";
 import MainPage from "./MainPage";
+import Assets from "./Assets";
+
+const background = {
+	backgroundImage: "url('/images/abstract.jpg')",
+	backgroundSize: "cover",
+	backgroundPosition: "center",
+	width: "100%",
+	height: "90rem", // Updated height to 70rem
+};
 
 export default function Home() {
-  return (
-		<div className="w-[90rem] bg-black min-h-[90rem] mx-auto mt-[5rem]">
-			<Header />
-
-			<div className="flex flex-col justify-center rounded-3xl px-7 min-h-[70rem]">
-				<MainPage />
-			</div>
+	return (
+		<div
+			className="w-[24.375rem] min-h-[40rem] 2xl:w-[96rem] 2xl:h-[70rem] 2xl:pt-[1rem] bg-gradient-to-br from-black via-gray-900 to-gray-800 bg-gradient-to-tr from-20% via-gray-700 to-80% bg-gradient-to-bl from-30% via-gray-800 to-70%"
+			style={background}
+		>
+			<Navbar />
+			<MainPage />
 		</div>
 	);
 }

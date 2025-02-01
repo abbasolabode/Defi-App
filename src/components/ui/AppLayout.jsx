@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
 
+
 export default function AppLayout() {
   return (
-    <div>
-        <Outlet/>
-    </div>
-  )
+		<div className="w-[24.375rem] 2xl:w-[96rem] ">
+			<Outlet />
+		</div>
+	);
 }

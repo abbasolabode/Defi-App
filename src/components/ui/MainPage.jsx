@@ -1,177 +1,184 @@
-import { IoMdArrowDropup } from "react-icons/io";
+import { MdOutlineArrowDropUp } from "react-icons/md";
 import { MdOutlineArrowRight } from "react-icons/md";
-import { MdOutlineStarBorder } from "react-icons/md";
-import { BsFlower3 } from "react-icons/bs";
-import { IoMdArrowForward } from "react-icons/io";
-import { GiMoon } from "react-icons/gi";
+import { MdOutlineArrowForward } from "react-icons/md";
+import { MdArrowOutward } from "react-icons/md";
+import { MdOutlineArrowLeft } from "react-icons/md";
+import { MdOutlineArrowDownward } from "react-icons/md";
+import { PiFlowerTulip } from "react-icons/pi";
+import { LuDot } from "react-icons/lu";
 import { Link } from "react-router-dom";
-import { GoArrowUpRight } from "react-icons/go";
-import { IoDiamondOutline } from "react-icons/io5";
-import { FaCircleArrowDown } from "react-icons/fa6";
-import { RxDash } from "react-icons/rx";
+import { GiMoon } from "react-icons/gi";
+import { IoIosArrowRoundDown } from "react-icons/io";
+import { GoDash } from "react-icons/go";
 
 export default function MainPage() {
-	const style = {
-		backgroundImage: "url('/images/abstract.jpg')",
-		backgroundSize: "cover",
-		backgroundPosition: "center",
-		width: "100%",
-		height: "70rem",
-		borderRadius: "2rem",
-		display: "flex",
-	};
-
 	return (
 		<>
-			<div style={style} className="w-[70rem] min-h-[60rem] rounded-xl">
-				<div className="w-[70rem] min-h-[60rem] ">
-					<div className="flex items-center min-h-[20rem] justify-between w-[70rem] ml-[4rem]">
-						<div className="min-h-[2rem] flex items-start flex-col text-white mt-[15rem]">
-							<IoMdArrowDropup className="font-semibold text-[2.8rem] rounded-full border-bg-[#2D2D2D] bg-[#2D2D2D]" />
-							<span className=" text-[2rem] w-[8rem] flex flex-col items-center]">
-								<p className="self-end text-[1.5rem] font-medium">
-									<span className="text-[2.6rem]">.</span> Cortex
-								</p>
-								<p className="text-[1rem] text-center ml-8 font-extralight">
-									20.945
-								</p>
-							</span>
+			
+			<div className="2xl:w-[90rem] 2xl:mx-[5rem]">
+			
+				<div className="min-h-[14rem] flex flex-col justify-center items-center 2xl:w-[90rem] 2xl:flex 2xl:flex-row 2xl:justify-between 2xl:mt-[5rem]">
+					<div className="min-h-[8rem] 2xl:ml-[6.8rem] 2xl:mt-[4rem]">
+						<div className="w-[5rem] min-h-[4rem]">
+							<MdOutlineArrowDropUp className="text-white border text-[2rem] 2xl:text-[3rem] rounded-full px-1.5 py-1.5" />
 						</div>
-
-						<div className="w-[20rem] min-h-[17rem] flex flex-col justify-between text-white mt-[7rem]">
-							<MdOutlineArrowRight className="text-[2.8rem] rounded-full border-bg-[#2D2D2D] bg-gray-700 ml-[7rem] " />
-							<Link
-								to="/"
-								className="flex justify-around items-center gap-2 rounded-full px-7 py-1 bg-stone-700 mt-[4rem]"
-							>
-								<GiMoon className="mr-2" />
-								Unlock Your Assets Spark!
-								<span>
-									<IoMdArrowForward className="font-semibold" />
+						<div>
+							<div>
+								<span className="flex items-center">
+									<LuDot className="text-white text-[1.3rem] 2xl:text-[3rem]" />
+									<p className="text-[1.2rem] text-white mr-4 2xl:text-[1.2rem]">
+										Cortex
+									</p>
 								</span>
-							</Link>
-						</div>
-
-						<div className="w-[2rem] min-h-[17rem] flex flex-col justify-center">
-							<MdOutlineStarBorder className="font-semibold text-[2.8rem] ml-[5rem] rounded-full border-bg-[#2D2D2D] bg-gray-800" />
-							<span className="text-white w-[1rem] ">
-								<p className="self-end text-[1.5rem] font-medium whitespace-nowrap">
-									<span className="text-[2.6rem]">.</span> Quant
-								</p>
-								<p className="text-[1rem] text-center font-extralight ml-5">
-									2.945
-								</p>
-							</span>
+							</div>
+							<p className="font-light text-gray-700 ml-6 2xl:text-[1.3rem] 2xl:ml-8">
+								20.945
+							</p>
 						</div>
 					</div>
-					<div className="mt-[5rem] text-center min-h-[4rem]">
-						<p className="text-[4.5rem] font-semibold text-white ml-[13rem] min-h-[3rem] whitespace-nowrap">
-							One-click for Assets Defense
+
+					<div className="min-h-[8rem] hidden 2xl:block">
+						<div className="w-[5rem] min-h-[4rem] 2xl:ml-[3rem]">
+							<MdOutlineArrowRight className="text-white text-[2rem] 2xl:text-[3rem] 2xl:bg-gray-500 rounded-full px-1.5 py-1.5 2xl:ml-[4rem]" />
+						</div>
+						<div className="2xl:w-[19rem] 2xl:py-1 2xl:rounded-full 2xl:bg-neutral-800 2xl:mr-[10rem] 2xl:mt-[5rem]">
+							<Link className="2xl:flex 2xl:justify-center gap-2 2xl:items-center 2xl:text-white">
+								<GiMoon className="2xl:text-[1rem] 2xl:font-medium" /> Unlock Your
+								Assets Spark! <MdOutlineArrowForward />
+							</Link>
+						</div>
+					</div>
+
+					<div className="hidden 2xl:block 2xl:mr-[4rem]">
+						<span className="flex">
+							<MdOutlineArrowRight className="text-white border 2xl:ml-[3rem]  2xl:mt-[2rem] text-[2.7rem] rounded-full px-1.5 py-1.5 2xl:text-[3rem]" />
+						</span>
+						<span className="flex items-center 2xl:mt-[2rem]  2xl:mr-[3rem]  ">
+							<LuDot className="text-white text-[1.3rem] 2xl:text-[3rem]" />
+							<p className="text-[1.2rem] text-white mr-4 ">Quant</p>
+						</span>
+						<p className="font-light text-gray-700 ml-6  2xl:text-[1.2rem] ">
+							20.945
 						</p>
-						<p className="text-[1.2rem] font-semibold text-white ml-[13rem] min-h-[3rem] whitespace-nowrap tracking-[0.02rem]">
+					</div>
+				</div>
+
+				{/* Middle Section */}
+				<div className="min-h-[12rem] flex flex-col justify-center">
+					<div className="text-center">
+						<h1 className="text-[1.8rem] font-semibold text-white 2xl:text-[5.4rem] 2xl:mt-[2rem]">
+							One-click for Asset Defense
+						</h1>
+						<p className="font-light text-stone-200 px-4 2xl:mt-[1rem] 2xl:text-[1.5rem]">
 							Dive into the art assets, where innovative blockchain technology
 							meets financial expertise
 						</p>
-						<span className="w-[82rem] flex justify-center items-center gap-2 mt-10">
-							<div className="">
-								<Link
-									to="/"
-									className="bg-[#2D2D2D] flex items-center rounded-full text-white px-3 w-[10rem] min-h-[3.5rem] flex justify-center items-center text-[1.2rem] font-semibold gap-2"
-								>
-									Open App
-									<GoArrowUpRight className="text-[1.2rem] font-bold" />
-								</Link>
-							</div>
-							<Link className="bg-white flex items-center bg-white flex items-center  rounded-full px-5 py-3 w-[13.5rem] min-h-[3.5rem] flex justify-center items-center text-[1.2rem] font-semibold gap-2 text-[#2D2D2D]">
-								Discover More
-							</Link>
-						</span>
 					</div>
-					<div className="min-h-[30rem]">
-						<div className="w-[80rem] text-white flex justify-between">
-							<div className="w-[15rem] flex flex-col items-center">
-								<span>
-									<p className="self-end text-[1.5rem] font-medium">
-										<span className="text-[2rem] w-[5rem] min-h-[2rem] px-2">
-											.
-										</span>
-										Aelf
-									</p>
-									<p className="text-[1rem] text-center ml-5 font-extralight">
-										19.346
-									</p>
-								</span>
-								<BsFlower3 className="font-semibold text-[2.8rem] rounded-full mr-[5.5rem] mt-2 bg-[#2D2D2D]" />
-							</div>
 
-							<div className="w-[5rem] flex flex-col items-center">
-								<span>
-									<p className="self-end text-[1.5rem] font-medium">
-										<span>.</span>Meeton
-									</p>
-									<p className="text-[1rem] text-center text-left  ml-2 font-extralight">
-										19.346
-									</p>
-								</span>
-								<IoDiamondOutline className="font-semibold text-[2.8rem] px-2 py-2 mt-2 ml-[7rem] bg-grey-800 border-bg-[#2D2D2D]  rounded-full border-bg-[#2D2D2D] " />
+					<div className="flex justify-center min-h-[3rem] mt-4 gap-2 2xl:mt-[4rem]">
+						<Link className="w-[8rem] bg-white text-green-900 font-semibold flex items-center justify-center rounded-full hover:bg-neutral-500 2xl:bg-neutral-900 2xl:text-white  2xl:w-[9.5rem] hover:text-white 2xl:gap-2  2xl:text-[1.2rem]">
+							Open App
+							<span>
+								<MdArrowOutward />
+							</span>
+						</Link>
+						<Link className="w-[8rem] bg-white text-green-900 font-semibold flex items-center justify-center rounded-full hover:bg-neutral-500 hover:text-white 2xl:w-[10rem] 2xl:text-[1.2rem] 2xl:text-neutral-900 ">
+							Discover More
+						</Link>
+					</div>
+				</div>
+
+				{/* Bottom Section */}
+				<div className="min-h-[14rem] mt-8 px-4">
+					<div className="flex justify-between gap-8">
+						<div className="min-h-[8rem]">
+							<div className="flex items-center 2xl:ml-[3rem]">
+								<LuDot className="text-white text-[2rem]" />
+								<p className="text-white 2xl:text-[1.5rem]">Aelf</p>
 							</div>
+							<p className="text-gray-500 2xl:text-[1.2rem] 2xl:ml-[5rem] ">
+								19.346
+							</p>
+							<span>
+								<PiFlowerTulip className="text-white border text-[2rem] 2xl:text-[3rem] mt-2 rounded-full px-1.5 py-1.5 2xl:ml-[1rem]" />
+							</span>
 						</div>
 
-						<div className="w-[80rem] min-h-[20rem] text-white flex justify-between items-center">
-							<div className="flex items-center w-[20rem] ml-[2.5rem] gap-3">
-								<FaCircleArrowDown className="text-4xl" />
-								<p className="w-[13rem] text-center text-[1.2rem] font-bold border py-1 rounded-full bg-gray-300 opacity-60 ">
-									02|03. Scroll down
-								</p>
+						<div className="min-h-[8rem]">
+							<div className="flex items-center">
+								<LuDot className="text-white text-[2rem] 2xl:text-[3rem]" />
+								<p className="text-white 2xl:mr-[5rem]">Meeton</p>
 							</div>
+							<p className="text-gray-500 2xl:text-[1.2rem] 2xl:ml-[2.rem]">
+								440
+							</p>
+							<span>
+								<PiFlowerTulip className="text-white border text-[2rem] mt-2 rounded-full px-1.5 py-1.5 2xl:text-[3rem] 2xl:ml-[6rem]" />
+							</span>
+						</div>
+					</div>
 
-							<div className="flex flex-col items-center w-[20rem] ">
-								<p className="w-[20rem] text-center text-[1.5rem]">
-									Defi horizons
+					<div className="flex justify-between mt-8 2xl: hidden 2xl:flex 2xl:mt-[20rem]">
+						<div>
+							<span className="flex items-center gap-2">
+								<span>
+									<IoIosArrowRoundDown className="text-white border text-[2rem] rounded-full px-1.5 py-1.5 2xl:bg-white 2xl:text-black 2xl:text-[3rem]" />
+								</span>
+								<p className="px-2 py-1 rounded-full  2xl:text-[1.2rem] 2xl:px-3 2xl:text-white 2xl:bg-gray-500">
+									02/03. Scroll down
 								</p>
-								<div className="flex ml-[4rem]">
-									<RxDash className=" text-[3.5rem] font-bold" />
-									<RxDash className=" text-[3.5rem] font-bold text-black" />
-									<RxDash className=" text-[3.5rem] font-bold text-black" />
-									<RxDash className=" text-[3.5rem] font-bold text-black" />
+							</span>
+						</div>
+
+						<div className="hidden 2xl:flex 2xl:flex-col">
+							<div>
+								<span>
+									<p className="2xl:text-yellow-600">Defi horizons</p>
+								</span>
+								<div className="2xl:flex 2xl:items-center">
+									<span>
+										<GoDash className="2xl:font-bold 2xl:text-white 2xl:text-[2rem]" />
+									</span>
+									<span>
+										<GoDash className="2xl:font-bold 2xl:text-[2rem]" />
+									</span>
+									<span>
+										<GoDash className="2xl:font-bold 2xl:text-[2rem]" />
+									</span>
+									<span>
+										<GoDash className="2xl:font-bold 2xl:text-[2rem]" />
+									</span>
 								</div>
 							</div>
 						</div>
+					</div>
 
-						<div className="text-white w-[80rem]">
-							<span className="flex items-center gap-7 justify-center  ">
-								<img
-									src="\Mask Group (1).png"
-									className="w-[8rem]"
-									alt=""
-								/>
-								<img
-									src="\Mask Group (2).png"
-									className="w-[8rem]"
-									alt=""
-								/>
-								<img
-									src="\Mask Group (2).png"
-									className="w-[8rem] "
-									alt=""
-								/>
-								<img
-									src="\Mask Group (4).png"
-									className="w-[6rem] ml-4"
-									alt=""
-								/>
-								<img
-									src="\Mask Group (3).png"
-									className="w-[8rem] mr-3"
-									alt=""
-								/>
-								<img
-									src="\Mask Group (4).png"
-									className="w-[6rem] mr-7"
-									alt=""
-								/>
-							</span>
-						</div>
+					<div className="flex justify-center gap-4 mt-[5rem]">
+						<img
+							src="/images/box-light.svg"
+							alt="Mask Group 1"
+							className="w-10 h-16"
+						/>
+						<img
+							src="/images/volkswagen-light.svg"
+							alt="Mask Group 2"
+							className="w-10 h-16"
+						/>
+						<img
+							src="/images/nasdaq-light.svg"
+							alt="Mask Group 3"
+							className="w-18 h-16"
+						/>
+						<img
+							src="/images/eventbrite-light.svg"
+							alt="Mask Group 4"
+							className="w-18 h-16"
+						/>
+						<img
+							src="/images/Mask Group (4).png"
+							alt="Mask Group 4"
+							className="w-13 h-16"
+						/>
 					</div>
 				</div>
 			</div>
