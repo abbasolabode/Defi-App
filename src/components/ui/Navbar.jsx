@@ -95,7 +95,7 @@ export default function Navbar() {
 						<Link to="/defi-app">Defi App</Link>
 					</li>
 					<li className="text-[1.3rem] font-light text-white hover:underline 2xl:text-[1rem] 2xl:font-medium ">
-						<Link to="/asset">Assets</Link>
+						<Link to="/assets">Assets</Link>
 					</li>
 					<li className="text-[1.3rem] font-light text-white hover:underline 2xl:text-[1rem] 2xl:font-medium">
 						<Link to="/features">Features</Link>
