@@ -15,7 +15,7 @@ export default function MainPage() {
 	return (
 		<>
 			<div className="2xl:w-[90rem] 2xl:ml-[4rem] 2xl:mx-[5rem] mt-2 2xl:min-h-[20rem]  2xl:mt-8 2xl:rounded-4xl bg-gradient-to-br from-black via-gray-900 to-gray-800 bg-gradient-to-tr from-20% via-gray-700 to-80% bg-gradient-to-bl from-30% via-gray-800 to-70% ">
-				<div className="min-h-[14rem] flex flex-col justify-center items-center 2xl:w-[90rem] 2xl:flex 2xl:flex-row 2xl:justify-between 2xl:mt-[5rem]">
+				<div className="min-h-[14rem] flex flex-col justify-center items-center 2xl:w-[90rem] 2xl:flex 2xl:flex-row 2xl:justify-between 2xl:mt-[rem]">
 					<div className="min-h-[8rem] 2xl:ml-[6.8rem] 2xl:mt-[4rem]">
 						<div className="w-[5rem] min-h-[4rem]">
 							<MdOutlineArrowDropUp className="text-white border text-[2rem] 2xl:text-[3rem] rounded-full px-1.5 py-1.5" />

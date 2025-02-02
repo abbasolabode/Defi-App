@@ -12,7 +12,7 @@ import MainPage from "./MainPage";
  */
 export default function Home() {
 	return (
-		<div className="w-[24.375rem] min-h-[40rem] 2xl:w-[96rem] 2xl:h-[90rem] bg-black 2xl:bg-black">
+		<div className="w-[24.375rem] min-h-[40rem] 2xl:w-[96rem] 2xl:h-[85rem] bg-black 2xl:bg-black">
 			<Navbar />
 			<MainPage />
 		</div>
