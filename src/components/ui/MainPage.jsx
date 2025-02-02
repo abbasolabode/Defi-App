@@ -14,7 +14,7 @@ import { GoDash } from "react-icons/go";
 export default function MainPage() {
 	return (
 		<>
-			<div className="2xl:w-[90rem] 2xl:ml-[4rem] 2xl:mx-[5rem]">
+			<div className="2xl:w-[90rem] 2xl:ml-[4rem] 2xl:mx-[5rem] mt-2 2xl:min-h-[20rem]  2xl:mt-8 2xl:rounded-4xl bg-gradient-to-br from-black via-gray-900 to-gray-800 bg-gradient-to-tr from-20% via-gray-700 to-80% bg-gradient-to-bl from-30% via-gray-800 to-70% ">
 				<div className="min-h-[14rem] flex flex-col justify-center items-center 2xl:w-[90rem] 2xl:flex 2xl:flex-row 2xl:justify-between 2xl:mt-[5rem]">
 					<div className="min-h-[8rem] 2xl:ml-[6.8rem] 2xl:mt-[4rem]">
 						<div className="w-[5rem] min-h-[4rem]">
@@ -87,8 +87,8 @@ export default function MainPage() {
 				</div>
 
 				{/* Bottom Section */}
-				<div className="min-h-[14rem] mt-8 px-4">
-					<div className="flex justify-between gap-8">
+				<div className="min-h-[14rem] mt-8 px-4 ">
+					<div className="flex justify-between gap-8 ">
 						<div className="min-h-[8rem]">
 							<div className="flex items-center 2xl:ml-[3rem]">
 								<LuDot className="text-white text-[2rem]" />
@@ -116,9 +116,9 @@ export default function MainPage() {
 						</div>
 					</div>
 
-					<div className="flex justify-between mt-8 2xl: hidden 2xl:flex 2xl:mt-[20rem]">
+					<div className="flex justify-between mt-8 2xl: hidden 2xl:flex 2xl:mt-[17rem] ">
 						<div>
-							<span className="flex items-center gap-2">
+							<span className="flex items-center gap-2 2xl:mt-[-3rem]">
 								<span>
 									<IoIosArrowRoundDown className="text-white border text-[2rem] rounded-full px-1.5 py-1.5 2xl:bg-white 2xl:text-black 2xl:text-[3rem]" />
 								</span>
@@ -128,7 +128,7 @@ export default function MainPage() {
 							</span>
 						</div>
 
-						<div className="hidden 2xl:flex 2xl:flex-col">
+						<div className="hidden 2xl:flex 2xl:flex-col 2xl:mt-[-3rem]">
 							<div>
 								<span>
 									<p className="2xl:text-yellow-600">Defi horizons</p>
@@ -150,35 +150,47 @@ export default function MainPage() {
 							</div>
 						</div>
 					</div>
-
-					<div className="flex justify-center gap-4 mt-[5rem] hidden">
-						<img
-							src="/images/box-light.svg"
-							alt="Mask Group 1"
-							className="w-10 h-16"
-						/>
-						<img
-							src="/images/volkswagen-light.svg"
-							alt="Mask Group 2"
-							className="w-10 h-16"
-						/>
-						<img
-							src="/images/nasdaq-light.svg"
-							alt="Mask Group 3"
-							className="w-18 h-16"
-						/>
-						<img
-							src="/images/eventbrite-light.svg"
-							alt="Mask Group 4"
-							className="w-18 h-16"
-						/>
-						<img
-							src="/images/Mask Group (4).png"
-							alt="Mask Group 4"
-							className="w-13 h-16"
-						/>
-					</div>
 				</div>
+			</div>
+
+			<div className="flex justify-center gap-4 mt-[5rem] 2xl:w-[60rem] 2xl:flex 2xl:justify-around 2xl:items-start 2xl:ml-[20rem]">
+				<img
+					src="/images/box-light.svg"
+					alt="Mask Group 1"
+					className="w-10 h-16 2xl:w-[6rem] 2xl:text-2xl"
+				/>
+				<img
+					src="/images/volkswagen-light.svg"
+					alt="Mask Group 2"
+					className="w-10 h-16 2xl:w-[6rem] 2xl:text-2xl"
+				/>
+				<img
+					src="/images/nasdaq-light.svg"
+					alt="Mask Group 3"
+					className="w-18 h-16 2xl:w-[6rem] 2xl:text-2xl"
+				/>
+				<img
+					src="/images/eventbrite-light.svg"
+					alt="Mask Group 4"
+					className="w-18 h-16 2xl:w-[6rem] 2xl:text-2xl"
+				/>
+				<img
+					src="/images/Mask Group (4).png"
+					alt="Mask Group 4"
+					className="w-13 h-16 2xl:w-[6rem] 2xl:text-2xl"
+				/>
+
+				<img
+					src="/images/nasdaq-light.svg"
+					alt="Mask Group 3"
+					className="w-18 h-16 2xl:w-[6rem] 2xl:text-3xl hidden 2xl:block"
+				/>
+
+				<img
+					src="/images/volkswagen-light.svg"
+					alt="Mask Group 2"
+					className="w-10 h-16 2xl:w-[6rem] 2xl:text-3xl hidden 2xl:block"
+				/>
 			</div>
 		</>
 	);

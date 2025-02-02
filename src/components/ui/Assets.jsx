@@ -200,10 +200,10 @@ export default function Assets() {
 								<span className="text-gray-700 border-2 w-[1.5rem]"></span>
 								<span className="text-gray-700 border-2 w-[1.5rem]"></span>
 							</span>
-							<button onClick={() => navigate("/")}>Back home</button>
 						</div>
 					</div>
 				</div>
+				<button className="text-white font-bold ml-3" onClick={() => navigate("/")}>Back home</button>
 			</div>
 		</div>
 	);  
